@@ -10,59 +10,40 @@ body {
  font-family: 'Outfit', sans-serif;
 }
 
-.container {
- height: 100vh;
+main {
+ height: 100%;
  display: flex;
  flex-direction: column;
- align-items: center;
  justify-content: center;
+ align-items: center;
+ text-align: center;
 }
 
-.bg-principal {
- width: 80vw;
- height: 90vh;
- margin: 0 auto;
+section {
+ width: 290px;
+ height: 420px;
  display: flex;
  flex-direction: column;
  align-items: center;
  text-align: center;
- border-radius: 10px;
- background-color: hsl(212, 45%, 89%);
-}
-
-.container-qrcode {
- display: flex;
- margin: auto;
- width: 260px;
- height: 400px;
- background-color: hsl(0, 0%, 100%);
+ background-color: aliceblue;
  border-radius: 10px;
 }
 
-.contents-qrcode {
- display: flex;
- flex-direction: column;
-}
-
-.contents-qrcode img {
- width: 200px;
+img {
+ width: 250px;
+ border-radius: 10px;
  margin-top: 20px;
- border-radius: 10px;
 }
 
-.contents-qrcode h2 {
- width: 80%;
- display: inline-flex;
- align-items: center;
- margin-top: 20px;
+h1 {
+ width: 250px;
  font-size: 17px;
+ margin-top: 20px;
 }
 
-.contents-qrcode p {
- width: 80%;
- display: inline-flex;
- align-items: center;
+p {
+ width: 250px;
+ font-size: 14px;
  margin-top: 20px;
- font-size: 13px;
- color: hsl(220, 15%, 55%);
 }
